@@ -1,9 +1,10 @@
 ---
+import Hamburger from './Hamburger.astro';
 import Navigation from './Navigation.astro';
 ---
-
-<div class="nav-links">
-    <a href="/">Home</a>
-    <a href="/about">About</a>
-    <a href="/blog">Blog</a>
-</div>
+<header>
+  <nav>
+    <Hamburger />
+    <Navigation />
+  </nav>
+</header>
